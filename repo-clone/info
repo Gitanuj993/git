@@ -1,0 +1,7 @@
+Welcome AT
+command 
+>> git clone <url.git>
+can create a clone of the remote repo in the local  machine 
+for example
+>> git clone https://github.com/Gitanuj993/git.git
+can clone this repo to your current local machine without any fork 
