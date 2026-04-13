@@ -1,31 +1,32 @@
-Welcome AT !
+# Welcome AT !
 
-How to set-up git in machine , { termux , linux , console }
+### How to set-up git in machine , { termux , linux , console }
 
-We will go with termux , However process is same for the remaining one !
+> We will go with termux , However process is same for the remaining one !
 
-Fist of all we install the git in our local machine by using a command , as machine works in commands not by intentions
+> Fist of all we install the git in our local machine by using a command , as machine works in commands not by intentions
 
-code look like this :>>$  pkg install git 
+1. code look like this : ``  pkg install git ``
 
-After the git is downloaded, you have tell git your identity as git don't works for ghosts.
+2. After the git is downloaded, you have tell git your identity as git don't works for ghosts.
 intorduction about git setup !
-> git setup include downloading of git using internal command and confiigure it for according to your github  profile name , email id and SSH authentication token as password not your gitHub login authentication password ,
+
+3. git setup include downloading of git using internal command and confiigure it for according to your github  profile name , email id and SSH authentication token as password not your gitHub login authentication password ,
 github and git uses a different authentication method for verification.
 
->>$ git config 
-Lets have a look on the above command , git is used to specify your task , it shows where are you doing ,
->>config
-shows what are you doing 
+`` git config ``
+##### Lets have a look on the above command , git is used to specify your task , it shows where are you doing ,
+``config``
+> shows what are you doing 
 
-first of all we should add a global configuration for your machine without it you didn't able to tell who are you ?
+4. first of all we should add a global configuration for your machine without it you didn't able to tell who are you ?
 
->>$ git config --global user.name "Gitanuj993" 
->>$ git config --global user.email "gleuser83@yahoo.in"
+`` git config --global user.name "Gitanuj993" ``
+`` git config --global user.email "gleuser83@yahoo.in" ``
 
-this process is mandatory but it doesn't connect your machine to remote machine which is your github account
+5. this process is mandatory but it doesn't connect your machine to remote machine which is your github account
 
-? >>$ git config --global credential.helper store
+`` $ git config --global credential.helper store  ``
 ? Credential Storage ?
 
 >>$ git init 
