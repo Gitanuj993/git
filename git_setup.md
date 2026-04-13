@@ -1,3 +1,4 @@
+
 # Welcome AT !
 
 ### How to set-up git in machine , { termux , linux , console }
@@ -29,40 +30,40 @@ github and git uses a different authentication method for verification.
 `` $ git config --global credential.helper store  ``
 ? Credential Storage ?
 
->>$ git init 
+`` git init ``
 from above command you would initialize git in the folder
 
->>$ git clone 
+`` git clone ``
 It is used to clone a repo from the remote machine
 
->>$ git status
+`` git status``
 It states the info and status of the working repo 
 it states whether repo is clean or  untracebale files 
 
->>$ git add .
+`` git add . ``
 It add and stagged all the files for tracking and ready to commit for vesrion history of the repo
->>$ git add file1.py 
+`` git add file1.py ``
 WE can also  add individual fils 
 
->>$ git commit -m " initial commit " 
+`` git commit -m " initial commit "  ``
 it creates a new snapshots of stagged files with version name and add commit and description of the snapeshot "
 
->>$ git push -u origin main or >> git push --set-upstream origin main  
->> -u is the short form of --set-upstream 
+`` git push -u origin main `` or `` git push --set-upstream origin main  ``
+`` -u is the short form of --set-upstream ``
 it pushes all the commited files to the remote repo called origin and into the main branch
 this commands also help us to link that branch to remote branch to use pull and push the code without specifing , orign and main eachtime
 
->> git push origin main 
+`` git push origin main ``
 Used to push code into remote machine or repo origin main
->> --tags
+`` --tags ``
 used to push tags 
 
->> -d 
+`` -d ``
 Used to delete a remote branch 
 
->> -f 
->> -force
+`` -f ``
+`` -force ``
 Used to push code focefully 
 
->> git remote add origin https://github.com/Gitanuj..git
+`` git remote add origin https://github.com/Gitanuj..git``
 
