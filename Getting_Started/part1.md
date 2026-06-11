@@ -1,5 +1,5 @@
 # Welcome To the Git user Guide Simplified Part 1.
-**In this Section We will answer of**
+**In this Section We will answer of the following !**
 1. What is git ? 
 2. What is github ?
 3. How to use them ? , 
@@ -14,7 +14,7 @@
 
 
 
-## Lets Explore them and if you have another just let us know ?
+## Lets Explore them and if you have any other Questions  just let us know ?
 1. What is git ?
 ```txt
 Ans : Git is a software which is used when you are working on a projects, lets say it To-do "Application",
