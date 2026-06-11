@@ -94,13 +94,8 @@ this addtion is callled merging or branch merge.
 8. What is push ?
 ```txt 
 It is a git command to merge your changes on local machine to remote branch or repository.
-```
-
-
-
 if you want to merge feature branch to main or defualt branch you have to request to merge your changes/branch , 
 this request is called "Pull Request or PR " many other teams and developers will check your changes ( review it ) then 
 if the PR is meets the standards then they approve it, 
-
 owner of the repository will accept your pull request and merge your changes to the main branch.
-
+```
