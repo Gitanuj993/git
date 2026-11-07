@@ -7,3 +7,11 @@ refer to : https://git-scm.com/install/
 Github : https://github.com
 
 ## Setup git and github or access
+
+1. Generate and Register SSH Key
+
+**Generate Key**: Open your terminal and run ``ssh-keygen -t ed25519 -C "your_email@example.com"``. Press Enter to accept the default file location and optionally set a passphrase. 
+
+**Add to Agent**: Start the SSH agent with ``eval "$(ssh-agent -s)"`` and add your key with ``ssh-add ~/.ssh/id_ed25519``. 
+**Copy Public Key**: Display the key using ``cat ~/.ssh/id_ed25519.pub`` and copy the entire output. 
+**Register on GitHub**: Log in to GitHub, ``go to Settings > SSH and GPG keys, click New SSH key, paste the copied key, and save.`` 
