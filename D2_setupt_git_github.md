@@ -15,3 +15,8 @@ Github : https://github.com
 **Add to Agent**: Start the SSH agent with ``eval "$(ssh-agent -s)"`` and add your key with ``ssh-add ~/.ssh/id_ed25519``. 
 **Copy Public Key**: Display the key using ``cat ~/.ssh/id_ed25519.pub`` and copy the entire output. 
 **Register on GitHub**: Log in to GitHub, ``go to Settings > SSH and GPG keys, click New SSH key, paste the copied key, and save.`` 
+
+2. Configure Git Repository
+
+**Test Connection**: Verify the setup by running ``ssh -T git@github.com`` A successful connection confirms authentication. 
+Switch to SSH: If your repository was cloned via HTTPS, switch it to SSH by running git remote set-url origin git@github.com:username/repository.git. 
